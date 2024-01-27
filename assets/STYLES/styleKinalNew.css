@@ -89,9 +89,23 @@ html{
 }
 
 /*Estilo Info*/
+.separadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .info .contenedor-seccion{
     background-color: white;
     height: 30vh;
     padding: 10px;
     margin: auto;
+}
+
+.info .separadores{
+    width: 1500px;
+    height: 750px;
+    margin: 0 10px;
+    text-align: center;
 }
