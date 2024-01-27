@@ -17,20 +17,24 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Quiénes Somos</a></li>
-                    <li><a href="#">Educación</a></li>
-                    <li><a href="#">Sponsors</a></li>
-                    <li><a href="#">Trabajos</a></li>
-                    <a>|</a>
-                    <li><a href="/index.html">Pagina Principal</a></li>
-                    <li><a href="/assets/PAGES/biografia.html">Biografía</a></li>
+                    <li><a href="#galeria">Inicio</a></li>
+                    <li><a href="#quienessomos">Quiénes Somos</a></li>
+                    <li><a href="#educacion">Educación</a></li>
+                    <li><a href="#sponsors">Sponsors</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <div class="menu">
+                        <button onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+                        <ul id="menuDesplegable">
+                            <li><a href="/index.html">Página Principal</a></li>
+                            <li><a href="/assets/PAGES/biografia.html">Biografía</a></li>
+                        </ul>
+                    </div>
                 </ul>
             </nav>
         </header>
     </div>
 
-    <div class="galeria">
+    <div id="galeria" class="galeria">
         <div id="conteItemsCarrusel">
             <div class="itemCarrusel" id="itemCarrusel1">
                 <div class="tarjetacarrusel" id="tarjetacarrusel1">
@@ -60,6 +64,14 @@
             </div>
         </div>
     </div>
+
+    <section id="info" class="info">
+        <div class="contenedor-seccion">
+            <img src="/assets/RESOURCES/IMG/Foto1.png" alt="">
+        </div>
+    </section>
+
+    <script src="/assets/SCRIPTS/logicaKinalNew.js"></script>
 
 </body>
 </html>

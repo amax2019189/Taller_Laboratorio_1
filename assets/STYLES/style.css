@@ -191,3 +191,38 @@ html{
 .tiempo .contenedor-seccion p{
     text-align: justify;
 }
+
+/*Estilo para Menu*/
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+#menuDesplegable {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    left: 0;
+}
+
+#menuDesplegable li {
+    background-color: #EBD9B4;
+    padding: 8px;
+}
+
+#menuDesplegable li:hover {
+    background-color: #638889;
+}
+
+#menuDesplegable.mostrar {
+    display: block;
+}
+
+.menu button{
+    border: none;
+    background: transparent;
+    color: #9DBC98;
+}

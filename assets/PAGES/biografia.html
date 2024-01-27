@@ -21,9 +21,13 @@
                     <li><a href="#skills">Tecnologías</a></li>
                     <li><a href="#proyectos">Proyectos</a></li>
                     <li><a href="#contacto">Contacto</a></li>
-                    <a>|</a>
-                    <li><a href="/index.html">Página Principal</a></li>
-                    <li><a href="/assets/PAGES/pagina.html">Página</a></li>
+                    <div class="menu">
+                        <button onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+                        <ul id="menuDesplegable">
+                            <li><a href="/index.html">Página Principal</a></li>
+                            <li><a href="/assets/PAGES/pagina.html">Página</a></li>
+                        </ul>
+                    </div>
                 </ul>
             </nav>
         </header>
@@ -186,6 +190,8 @@
             </form>
         </section>
     </center>
+
+    <script src="/assets/SCRIPTS/logicaBiografia.js"></script>
 
 </body>
 </html>

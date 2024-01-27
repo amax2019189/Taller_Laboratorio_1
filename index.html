@@ -20,9 +20,13 @@
                     <li><a href="#quemegusta">Que me gusta</a></li>
                     <li><a href="#porque">Por que me Gusta</a></li>
                     <li><a href="#tiempo">Tiempo Dedicado</a></li>
-                    <a>|</a>
-                    <li><a href="assets/PAGES/biografia.html">Biografía</a></li>
-                    <li><a href="assets/PAGES/pagina.html">Página</a></li>
+                    <div class="menu">
+                        <button onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+                        <ul id="menuDesplegable">
+                            <li><a href="/assets/PAGES/biografia.html">Biografía</a></li>
+                            <li><a href="/assets/PAGES/pagina.html">Página</a></li>
+                        </ul>
+                    </div>
                 </ul>
             </nav>
         </header>
@@ -114,5 +118,7 @@
             </p>
         </div>
     </section>
+
+    <script src="/assets/SCRIPTS/logicaIndex.js"></script>
 </body>
 </html>
