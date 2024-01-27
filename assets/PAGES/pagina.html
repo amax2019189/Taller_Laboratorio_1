@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/93625e9709.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/assets/STYLES/styleKinalNew.css">
+    <link rel="stylesheet" href="/assets/STYLES/styleCarrusel.css">
     <title>Kinal New</title>
 </head>
 
@@ -15,22 +17,49 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#">QUIÉNES SOMOS</a></li>
-                    <li><a href="#">EDUCACIÓN</a></li>
-                    <li><a href="#">SPONSORS</a></li>
-                    <li><a href="#">TRABAJOS</a></li>
-                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Quiénes Somos</a></li>
+                    <li><a href="#">Educación</a></li>
+                    <li><a href="#">Sponsors</a></li>
+                    <li><a href="#">Trabajos</a></li>
+                    <a>|</a>
+                    <li><a href="/index.html">Pagina Principal</a></li>
+                    <li><a href="/assets/PAGES/biografia.html">Biografía</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
-    <div id="gallery" class="gallery">
-        <img src="/assets/RESOURCES/IMG/kinal.webp" alt="">
-        <img src="/assets/RESOURCES/IMG/kinal1.webp" alt="">
+    <div class="galeria">
+        <div id="conteItemsCarrusel">
+            <div class="itemCarrusel" id="itemCarrusel1">
+                <div class="tarjetacarrusel" id="tarjetacarrusel1">
+                    <img src="/assets/RESOURCES/IMG/kinal.webp" alt="">
+                </div>
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel2">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                    <a href="#itemCarrusel2">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrusel" id="itemCarrusel2">
+                <div class="tarjetacarrusel" id="tarjetacarrusel2">
+                    <img src="/assets/RESOURCES/IMG/kinal1.webp" alt="">
+                </div>
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel1">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                    <a href="#itemCarrusel1">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="/assets/SCRIPTS/logica.js"></script>
 </body>
 </html>
